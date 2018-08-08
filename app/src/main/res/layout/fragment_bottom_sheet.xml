@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/atom_sv_bottom_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/atom_sv_bottom_main_show"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="弹出Dialog"/>
+
+        <Button
+            android:id="@+id/atom_sv_bottom_main_hiden"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="收起Dialog"/>
+
+        <Button
+            android:id="@+id/atom_sv_bottom_main_showchecked"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="点击内容"/>
+
+    </LinearLayout>
+
+    <com.mlmOK.hotWheel.recycleView.MRecycleView
+        android:id="@+id/atom_sv_bottom_listview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:dividerHeight="15dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

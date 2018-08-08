@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_splash_ignore">
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_test"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textColor="@color/spider_button_skip_txcolor_selector"-->
+        <!--android:text="跳过"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_test1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textColorHint="@color/colorPrimary"-->
+        <!--android:textColor="@color/spider_button_skip_txcolor_selector"-->
+        <!--android:text="跳过跳过跳过"/>-->
+
+    <EditText
+        android:id="@+id/atom_sv_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:imeOptions="actionDone" />
+
+</LinearLayout>

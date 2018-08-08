@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M128 24q-44.25 1-73.625 30.375T24 128q1 44.25 30.375 73.625T128 232q44.25-1 73.625-30.375T232 128q-1-44.25-30.375-73.625T128 24m61.75 77.75l-72 72Q115.25 176 112 176t-5.75-2.25l-40-40Q64 131.25 64 128t2.375-5.625Q68.75 120 72 120t5.75 2.25l34.25 34.5 66.25-66.5Q180.75 88 184 88t5.625 2.375Q192 92.75 192 96t-2.25 5.75" />
+
+</vector>

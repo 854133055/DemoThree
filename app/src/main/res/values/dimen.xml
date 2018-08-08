@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="atom_sv_main_dividerHeight">7.5dp</dimen>
+    <dimen name="rectangleMaxHeight">18.9dp</dimen>
+    <dimen name="rectangleMiddleHeight">12.9dp</dimen>
+    <dimen name="rectangleMinHeight">6.9dp</dimen>
+    <dimen name="rectanglePadding">3dp</dimen>
+    <dimen name="rectangleWidth">3.5dp</dimen>
+</resources>

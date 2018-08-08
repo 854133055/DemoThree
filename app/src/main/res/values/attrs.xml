@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BitmapView">
+        <attr name="image_res_1" format="reference" />
+        <attr name="image_res_2" format="reference" />
+        <attr name="image_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleWaveView">
+        <attr name="center_view_listening" format="reference" />
+        <attr name="center_view_nolisten" format="reference" />
+        <attr name="center_view_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WaterRippleView">
+        <attr name="rippleSpacing" format="dimension|reference" />
+        <attr name="rippleCount" format="integer|reference" />
+        <attr name="rippleColors" format="color|reference" />
+        <attr name="rippleCenterView" format="integer|reference" />
+        <attr name="rippleAutoRunning" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FluctuateView">
+        <attr name="rectangleWidth" format="dimension" />
+        <attr name="rectanglePadding" format="dimension" />
+        <attr name="rectangleMaxHeight" format="dimension" />
+        <attr name="rectangleMinHeight" format="dimension" />
+        <attr name="rectangleCount" format="integer" />
+    </declare-styleable>
+</resources>
